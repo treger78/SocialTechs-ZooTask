@@ -1,5 +1,5 @@
 import CONST from "./utils/constants.js";
-import Button from "./Button.js";
+import createButton from "./createButton.js";
 
 class Animal {
   constructor(animalType) {
@@ -41,8 +41,8 @@ class Animal {
 
     animal.append(animalType, animalFeature);
 
-    new Button('feed', this.feedListener.bind(this), animal).createButton();
-    new Button('free', this.freeListener.bind(this), animal).createButton();
+    createButton('feed', this.feedListener.bind(this), animal);
+    createButton('free', this.freeListener.bind(this), animal);
 
     document.getElementById('zoo').appendChild(animal);
   }
