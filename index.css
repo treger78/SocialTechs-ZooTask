@@ -1,0 +1,14 @@
+@import "./styles/normalize.css";
+@import "./styles/zoo.css";
+@import "./styles/animal.css";
+@import "./styles/button.css";
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.catch {
+  margin-top: 3vh;
+}

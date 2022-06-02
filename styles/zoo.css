@@ -1,0 +1,9 @@
+#zoo {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid black;
+  height: fit-content;
+  min-height: 80vh;
+  width: 90vw;
+  margin-top: 4vh;
+}
